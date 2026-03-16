@@ -6,22 +6,53 @@
         {
             Console.OutputEncoding = System.Text.Encoding.Unicode;
             bool[] tab = new bool[10];
-            tab[0] = true;
 
-            for (int i = 0; i < 10; i++)
+            ushort position = 0;
+            tab[position] = true;
+
+            string choix;
+            do
             {
-                if (tab[i] == true)
+                #region Affichage
+                Console.Clear();
+                for (int i = 0; i < 10; i++)
                 {
-                    Console.Write("P");
+                    if (tab[i] == true)
+                    {
+                        Console.Write("😁");
+                    }
+                    else
+                    {
+                        Console.Write("⏹️");
+                    }
                 }
-                else
+                Console.WriteLine();
+                #endregion
+                #region Menu utilisateur
+                Console.WriteLine("Que voulez-vous faire?\n(G)auche-(D)roite-(Q)uitter");
+                choix = Console.ReadLine()!;
+                #endregion
+                #region Déplacement pion
+                tab[position] = false;
+                if (choix == "G")
                 {
-                    Console.Write("-");
+                    //Déplacement vers la gauche
+                    if(position > 0)
+                    {
+                        position--;
+                    }
                 }
-            }
-            Console.WriteLine();
-            Console.WriteLine("Que voulez-vous faire?\n(G)auche-(D)roite-(Q)uitter");
-            string choix = Console.ReadLine()!;
+                else if (choix == "D")
+                {
+                    //Déplacement vers la droite
+                    if(position < 9)
+                    {
+                        position++;
+                    }
+                }
+                tab[position] = true;
+                #endregion
+            } while (choix != "Q");
         }
     }
 }
