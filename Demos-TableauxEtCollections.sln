@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Collection-04", "Demo-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Collection-ToDoList", "Exo-Collection-ToDoList\Exo-Collection-ToDoList.csproj", "{F997F081-788D-431E-A016-AE118C369AA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Dictionary", "Demo-Dictionary\Demo-Dictionary.csproj", "{0CECA2C1-C287-4EB0-8273-39EC5C39786A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Collection-CourseTortues", "Exo-Collection-CourseTortues\Exo-Collection-CourseTortues.csproj", "{1A47D53A-67E8-4744-A2A3-527F2FC62A4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{F997F081-788D-431E-A016-AE118C369AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F997F081-788D-431E-A016-AE118C369AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F997F081-788D-431E-A016-AE118C369AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CECA2C1-C287-4EB0-8273-39EC5C39786A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CECA2C1-C287-4EB0-8273-39EC5C39786A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CECA2C1-C287-4EB0-8273-39EC5C39786A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CECA2C1-C287-4EB0-8273-39EC5C39786A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A47D53A-67E8-4744-A2A3-527F2FC62A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A47D53A-67E8-4744-A2A3-527F2FC62A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A47D53A-67E8-4744-A2A3-527F2FC62A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A47D53A-67E8-4744-A2A3-527F2FC62A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
